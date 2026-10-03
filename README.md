@@ -1,18 +1,24 @@
 # StyleSense AI 👗
 
-StyleSense AI is a virtual wardrobe and outfit recommendation prototype.
+### AI-Powered Virtual Wardrobe & Outfit Recommendation System
 
-## Features
+StyleSense AI is a virtual wardrobe and outfit recommendation prototype that uses computer vision and AI-based clothing classification to analyze clothing items and provide simple outfit recommendations.
 
-- Upload a clothing image
-- AI-based clothing-item classification using CLIP
-- Basic clothing category detection
-- Dominant colour detection using image processing
-- Occasion and colour preferences
-- Simple outfit recommendations
-- User-friendly Streamlit interface
+## 🚀 Live Demo
 
-## Tech Stack
+👉 [Open StyleSense AI](https://stylesense-ai-avirtualwardrobee.streamlit.app/)
+
+## ✨ Features
+
+- 👕 Upload a clothing image
+- 🤖 AI-based clothing-item classification using CLIP
+- 🏷️ Basic clothing category detection
+- 🎨 Dominant colour detection using image processing
+- 🎯 Occasion and colour preferences
+- 👗 Simple outfit recommendations
+- 💻 User-friendly Streamlit interface
+
+## 🛠️ Tech Stack
 
 - Python
 - Streamlit
@@ -22,16 +28,7 @@ StyleSense AI is a virtual wardrobe and outfit recommendation prototype.
 - Pillow
 - NumPy
 
-## Run locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-The first analysis may take longer because the CLIP model needs to be downloaded.
-
-## Project workflow
+## 🔄 Project Workflow
 
 ```text
 Clothing Image
@@ -45,8 +42,3 @@ Dominant Colour Extraction
 Category + User Preferences
       ↓
 Outfit Recommendation
-```
-
-## Important note
-
-This is a prototype. Classification confidence can vary depending on lighting, background, camera quality, and how clearly the clothing item is visible.
